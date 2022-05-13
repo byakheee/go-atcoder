@@ -15,6 +15,17 @@ $ acc login
 $ acc check-oj
 ```
 
+## Installation
+
+```shell
+$ cp -r go-template `acc config-dir`
+# confirm templates
+$ acc templates
+NAME         SUBMIT-PROGRAM
+go-template  main.go
+$ acc config default-template go-template
+```
+
 ## Usage
 
 ```shell
