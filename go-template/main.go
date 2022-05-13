@@ -18,5 +18,5 @@ func main() {
 
 	// implement solution
 
-	wr.WriteString(strconv.Itoa(int(n)) + "\n")
+	wr.WriteString(strconv.Itoa(n) + "\n")
 }

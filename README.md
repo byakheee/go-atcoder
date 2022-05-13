@@ -32,7 +32,7 @@ $ acc config default-template go-template
 # example. if contest name is abc051
 $ acc new abc051
 $ cd abc051/a
-$ touch main.go # write solution
-$ oj t -c "go run ./main.go" -d tests
+$ vim main.go # write solution
+$ oj t -c "go run ./main.go" -d tests # recommended to set an alias
 $ acc submit main.go
 ```
